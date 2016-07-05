@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.alibaba.animation2.MainActivity">
+
+    <ImageView
+        android:id="@+id/animation2_iv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/frames"/>
+    <Button
+        android:id="@+id/animation2_btn01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start animation"/>
+    <Button
+        android:id="@+id/animation2_btn02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop animation"/>
+</LinearLayout>
